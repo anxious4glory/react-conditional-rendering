@@ -1,9 +1,10 @@
 import React from "react";
 import Form from "./Form";
 
-var userIsRegistered = true;
+let userIsRegistered = true;
+//toggle bewteen true & false
 
-function App() {
+let App = () => {
   return (
     <div className="container">
       <Form isRegistered={userIsRegistered} />
